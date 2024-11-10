@@ -6,13 +6,13 @@
 <br>
 
   <div align="center" >
-   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=26F718&random=false&width=435&lines=Hello+There%2C+Nice+To+See+You+;Call+Me+Koussay+Hajri;I+am+a+Web+Developer" alt="Typing SVG" /></a>
+   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0096FF&random=false&width=435&lines=Hello+There%2C+Nice+To+See+You+;Call+Me+Koussay+Hajri;I+am+a+Web+Developer" alt="Typing SVG" /></a>
   </div>
   
  
 <br>
 	
-## <picture><img src = "https://raw.githubusercontent.com/gist/UddeshJain/90646446c86e45c494d6e69bfc3005f1/raw/b15bee8a8b85f8740795b92c1878ab8ed9ec2204/About%20Me.gif" width = 50px></picture> **About me**
+##  **About me**
 
 <be>
 
@@ -33,14 +33,7 @@
   <img
     src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
-<img align="right" alt="GIF" height="170px" src="https://media.giphy.com/media/J5B1Y8QZnzXXbLQIBu/giphy.gif" />
 
-### Spotify Playing 🎧
-
-[![Spotify](https://novatorem.bgstatic.vercel.app/api/spotify)]()
-
-<img
-    src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 
 ## 💻Tech Stack <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px>
@@ -218,17 +211,14 @@
 <img src="https://raw.githubusercontent.com/sachin492002/profile-cards/master/profile-summary-card-output/2077/3-stats.svg" width="32.5%">
 <img src="https://raw.githubusercontent.com/sachin492002/profile-cards/master/profile-summary-card-output/2077/1-repos-per-language.svg" width="32.5%">
 <img src="https://raw.githubusercontent.com/sachin492002/profile-cards/master/profile-summary-card-output/2077/2-most-commit-language.svg" width="32.5%">
-<img src="https://raw.githubusercontent.com/sachin492002/profile-cards/master/profile-summary-card-output/2077/4-productive-time.svg" width="32.5%">
+
 </a>
 
 </div>
 
 ---
 
-<p align="center">
-  <img  src="https://raw.githubusercontent.com/Elanza-48/Elanza-48/main/resources/img/github-contribution-grid-snake.svg"
-    alt="example" />
-</p>
+
 <br/>
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> Connect with me
