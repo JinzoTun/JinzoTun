@@ -147,19 +147,19 @@
 <h3 align="center">Cloud & Hosting:</h3>
 <p align="center">
   <a href="https://azure.microsoft.com/en-in/" target="_blank">
-    <img  src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="azure"/> 
+    <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="azure"/> 
   </a>
   <a href="https://firebase.google.com/" target="_blank">
     <img src="https://img.shields.io/badge/firebase-FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black" alt="firebase"/>
   </a>
   <a href="https://netlify.com/" target="_blank">
-    <img src="[[https://img.shields.io/badge/netlify-00C7B7.svg?style=for-the-badge&logo=netlify&logoColor=black](https://img.shields.io/badge/netlify-00C7B7.svg)](https://img.shields.io/badge/netlify-00C7B7.svg)" alt="firebase"/>
+    <img src="https://img.shields.io/badge/netlify-00C7B7.svg?style=for-the-badge&logo=netlify&logoColor=black" alt="netlify"/>
   </a>
   <a href="https://vercel.com" target="_blank"> 
-    <img src="[?style=for-the-badge&logo=heroku&logoColor=white](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)"
-      alt="Vercel"/> 
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="vercel"/> 
   </a> 
 </p>
+
 
 <h3 align="center">Version Control & CI/CD</h3>
 <p align="center">
@@ -179,9 +179,6 @@
 
 <h3 align="center">Preferred IDEs  & Tools :</h3>
 <p align="center"> 
-  <a href="https://jetbrains.org" target="_blank">
-    <img src="https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=WebStorm&logoColor=white" alt="eclipse IDE"/> 
-  </a>
   <a href="https://code.visualstudio.com/" target="_blank">
     <img src="https://img.shields.io/badge/vscode-007ACC.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="vsCode"/> 
   </a>
