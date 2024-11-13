@@ -222,9 +222,9 @@
 
 <p align="center">
 <a href="mailto:me@koussay.tn"><img img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" alt="Gmail"/></a>
-	<a href="https://wa.me/21371898"><img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" alt="Whatsapp"/></a>
-	<a href="[https://linkedin.com/in/koussay-hajri](https://www.linkedin.com/in/koussay-hajri/)"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" alt="LinkedIn"/></a>
-	<a href="https://www.instagram.com/koussayhajri03/"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" alt="Instagram"/></a>	
+	<a href="https://wa.me/+21621371898"><img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" alt="Whatsapp"/></a>
+	<a href="https://www.linkedin.com/in/koussay-hajri/"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" alt="LinkedIn"/></a>
+	<a href="https://www.instagram.com/hajrikoussay03/"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" alt="Instagram"/></a>	
  
   </a>
 </p>
