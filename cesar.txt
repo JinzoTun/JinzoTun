@@ -1,0 +1,194 @@
+// cesar 
+def caesar(plaintext, shift):
+    result = ""
+    for char in plaintext:
+        if char.isalpha():
+            shift_amount = shift % 26
+            if char.islower():
+                shifted = chr((ord(char) - ord('a') + shift_amount) % 26 + ord('a'))
+            else:
+                shifted = chr((ord(char) - ord('A') + shift_amount) % 26 + ord('A'))
+            result += shifted
+        else:
+            result += char
+    return result
+
+// des 
+public class DES {
+
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Entrez le texte à chiffrer/déchiffrer : ");
+        String texte = scanner.nextLine();
+
+        System.out.print("Entrez une clé de 8 caractères pour DES : ");
+        String cleUtilisateur = scanner.nextLine();
+
+        if (cleUtilisateur.length() != 8) {
+            System.out.println("La clé doit être composée de 8 caractères.");
+            return;
+        }
+
+        SecretKeySpec key = new SecretKeySpec(cleUtilisateur.getBytes(), "DES");
+
+        System.out.print("Choisissez le mode (c : chiffrement / d : déchiffrement) : ");
+        String mode = scanner.nextLine().trim().toLowerCase();  
+
+        if (!mode.equals("c") && !mode.equals("d")) {
+            System.out.println("Mode invalide. Veuillez entrer 'c' pour chiffrement ou 'd' pour déchiffrement.");
+            return;
+        }
+
+        String resultat;
+        if (mode.equals("c")) {
+            resultat = encryptDES(texte, key);
+            System.out.println("Texte Chiffré (Base64) : " + resultat);
+        } else {
+            resultat = decryptDES(texte, key);
+            System.out.println("Texte Déchiffré : " + resultat);
+        }
+
+        scanner.close();
+    }
+
+    public static String encryptDES(String texte, SecretKeySpec key) throws Exception {
+        Cipher cipher = Cipher.getInstance("DES");
+        cipher.init(Cipher.ENCRYPT_MODE, key);
+
+        byte[] encryptedBytes = cipher.doFinal(texte.getBytes());
+        return Base64.getEncoder().encodeToString(encryptedBytes);  
+    }
+
+    public static String decryptDES(String texteChiffre, SecretKeySpec key) throws Exception {
+        Cipher cipher = Cipher.getInstance("DES");
+        cipher.init(Cipher.DECRYPT_MODE, key);
+
+        byte[] decodedBytes = Base64.getDecoder().decode(texteChiffre);
+        byte[] decryptedBytes = cipher.doFinal(decodedBytes);
+        return new String(decryptedBytes);
+    }
+}
+
+// rsa 
+public class RSA {
+    public static double gcd(double a, double h)
+    {
+        
+        double temp;
+        while (true) {
+            temp = a % h;
+            if (temp == 0)
+                return h;
+            a = h;
+            h = temp;
+        }
+    }
+    public static void main(String[] args)
+    {
+        double p = 3;
+        double q = 7;
+        double n = p * q;
+        double e = 2;
+
+        double phi = (p - 1) * (q - 1);
+        while (e < phi) {
+            if (gcd(e, phi) == 1)
+                break;
+            else
+                e++;
+        }
+        int k = 2; 
+        double d = (1 + (k * phi)) / e;
+
+        // Message to be encrypted
+        double msg = 12;
+
+        System.out.println("Message data = " + msg);
+
+        // Encryption c = (msg ^ e) % n
+        double c = Math.pow(msg, e);
+        c = c % n;
+        System.out.println("Encrypted data = " + c);
+
+        // Decryption m = (c ^ d) % n
+        double m = Math.pow(c, d);
+        m = m % n;
+        System.out.println("Original Message Sent = " + m);
+    }
+}
+
+// premier
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class NombrePremier {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Entrez un nombre : ");
+        BigInteger n = scanner.nextBigInteger();
+
+        if (estPremier(n)) {
+            System.out.println(n + " est un nombre premier.");
+        } else {
+            System.out.println(n + " n'est pas un nombre premier.");
+        }
+
+    }
+
+    public static boolean estPremier(BigInteger n) {
+        return n.isProbablePrime(100);  // Le paramètre 100 est une probabilité de sécurité
+    }
+}
+
+// gcd
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class GCD {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Entrez le premier nombre : ");
+        BigInteger a = scanner.nextBigInteger();
+
+        System.out.print("Entrez le second nombre : ");
+        BigInteger b = scanner.nextBigInteger();
+
+        BigInteger pgcd = pgcd(a, b);
+        System.out.println("Le PGCD de " + a + " et " + b + " est : " + pgcd);
+
+        scanner.close();
+    }
+
+    public static BigInteger pgcd(BigInteger a, BigInteger b) {
+        while (!b.equals(BigInteger.ZERO)) {
+            BigInteger temp = b;
+            b = a.mod(b);
+            a = temp;
+        }
+        return a;
+    }
+}
+
+// division euclidienne 
+import java.math.BigInteger;
+
+public class DivisionEuclidienne {
+
+    public static void main(String[] args) {
+        BigInteger a = new BigInteger("123456789012345678901234567890");
+        BigInteger b = new BigInteger("98765432109876543210987654321");
+
+        BigInteger[] result = divEucl(a, b);
+        System.out.println("Quotient: " + result[0]);
+        System.out.println("Reste: " + result[1]);
+    }
+
+    public static BigInteger[] divEucl(BigInteger a, BigInteger b) {
+        BigInteger q = a.divide(b);
+        BigInteger r = a.remainder(b);
+        return new BigInteger[]{q, r};
+    }
+}
